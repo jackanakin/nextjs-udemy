@@ -16,8 +16,10 @@
 > GitHub repositorires along AppRouter, Dynamic Pages, Pages Grouping, Loading UI, Layout Pattern, Metadata, Client Components 
 1. Loading UI using loading.tsx [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/loading.tsx)
 2. Nesting Layout Pattern using layout.tsx [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/(site)/dashboard/layout.tsx)
-3. NextJS Metadata for SEO customization [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/repositorios/page.tsx)
-4. NextJS Server Components [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/repositorios/%5Bid%5D/page.tsx) vs Client Components [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/repositorios/page.tsx) (you have to explicitly decide what components React should render on the client) <br> Search for Composition Patterns to decide which aproach is better for each scenario.
+3. NextJS Metadata for SEO customization [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/layout.tsx)
+4. NextJS Server Components [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/repositorios/%5Bid%5D/page.tsx) vs Client Components "use client" [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/repositorios/page.tsx) (you have to explicitly decide what components React should render on the client) <br> Search for Composition Patterns to decide which aproach is better for each scenario.
 5. Dynamic Pages using \[id\] [example](https://github.com/jackanakin/nextjs-udemy/tree/main/repositories/src/app/repositorios/%5Bid%5D)
 6. Pages Grouping using (grouping) [example](https://github.com/jackanakin/nextjs-udemy/tree/main/repositories/src/app/(admin))
-7. 
+7. In NextJS, fetch by default creates a local cache for each request, to force no cache use { cache: 'no-store' }, can use revalidate to specify time to be cached [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/page.tsx)
+8. Default error page with error.tsx [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/error.tsx)
+9. Default not found page with not-found.tsx [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/not-found.tsx)
