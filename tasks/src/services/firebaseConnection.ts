@@ -1,13 +1,14 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
+import { env } from "node:process";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCr3tROuaXePBWcENKI6myZRaOxJW_nh0E",
-  authDomain: "tarefasplus-d1aa0.firebaseapp.com",
-  projectId: "tarefasplus-d1aa0",
-  storageBucket: "tarefasplus-d1aa0.appspot.com",
-  messagingSenderId: "769213693019",
-  appId: "1:769213693019:web:d9ad137817b38a4f1ad37e",
+  apiKey: env.FIREBASE_API_KEY,
+  authDomain: env.FIREBASE_DOMAIN,
+  projectId: env.FIREBASE_PRJ_ID,
+  storageBucket: env.FIREBASE_BUCKET,
+  messagingSenderId: env.FIREBASE_SENDER,
+  appId: env.FIREBASE_APP_ID,
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
