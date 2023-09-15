@@ -23,3 +23,6 @@
 7. In NextJS, fetch by default creates a local cache for each request, to force no cache use { cache: 'no-store' }, can use revalidate to specify time to be cached [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/page.tsx)
 8. Default error page with error.tsx [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/error.tsx)
 9. Default not found page with not-found.tsx [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/not-found.tsx)
+
+### api-routes
+1. Using NextJS for building API Routes [example]()
