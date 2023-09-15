@@ -25,4 +25,4 @@
 9. Default not found page with not-found.tsx [example](https://github.com/jackanakin/nextjs-udemy/blob/main/repositories/src/app/not-found.tsx)
 
 ### api-routes
-1. Using NextJS for building API Routes [example]()
+1. Using NextJS for building API Routes [example](https://github.com/jackanakin/nextjs-udemy/blob/main/api-routes/src/app/api/tarefas/route.ts)
